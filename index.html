@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member of the Week</title>
+    <meta name="description" content="Member spotlight featuring Kishlaya Mishra - AI & Data Science Specialist">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="brand">
+                    <h1 class="group-name">404 Not Found</h1>
+                    <p class="subtitle">Member of the Week</p>
+                </div>
+                
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun theme-icon theme-icon--sun"></i>
+                    <i class="fas fa-moon theme-icon theme-icon--moon"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <div class="container">
+                <!-- Member Spotlight Card -->
+                <div class="member-card">
+                    <div class="member-profile">
+                        <div class="profile-header">
+                            <h2 class="member-name" id="memberName">Kishlaya Mishra</h2>
+                            <div class="profile-badge">
+                                <i class="fas fa-star"></i>
+                                <span>Featured Member</span>
+                            </div>
+                        </div>
+                        
+                        <div class="member-summary">
+                            <p id="memberSummary">AI & Data Science Specialist pursuing B.Sc. Computer Science at BITS Pilani. Certified from Harvard, Duke, and Vanderbilt. Experience with EY, IBM, Microsoft, Goldman Sachs. 46+ GitHub repositories spanning full-stack development and AI projects.</p>
+                        </div>
+                    </div>
+
+                    <!-- Contact Section -->
+                    <div class="contact-section">
+                        <h3 class="section-title">
+                            <i class="fas fa-paper-plane"></i>
+                            Get in Touch
+                        </h3>
+                        <div class="contact-grid">
+                            <a href="tel:+918000363769" class="contact-button contact-button--phone" id="phoneBtn">
+                                <div class="button-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="button-content">
+                                    <span class="button-label">Call</span>
+                                    <span class="button-value">Connect</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://www.linkedin.com/in/kishlayamishra" target="_blank" rel="noopener" class="contact-button contact-button--linkedin" id="linkedinBtn">
+                                <div class="button-icon">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </div>
+                                <div class="button-content">
+                                    <span class="button-label">LinkedIn</span>
+                                    <span class="button-value">View Profile</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://github.com/kishlayamishra02" target="_blank" rel="noopener" class="contact-button contact-button--github" id="githubBtn">
+                                <div class="button-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="button-content">
+                                    <span class="button-label">GitHub</span>
+                                    <span class="button-value">View Code</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Fun Fact Section -->
+                    <div class="facts-section">
+                        <h3 class="section-title">
+                            <i class="fas fa-lightbulb"></i>
+                            Fun Fact
+                        </h3>
+                        
+                        <div class="fact-display">
+                            <blockquote class="fun-fact" id="funFact">
+                                Once tried to teach an AI to make chai; now the kettle expects a salary.
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
