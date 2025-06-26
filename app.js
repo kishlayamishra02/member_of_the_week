@@ -7,7 +7,7 @@ class MemberSpotlightApp {
       phone: "+91 8000363769",
       linkedin: "https://www.linkedin.com/in/kishlayamishra",
       github: "https://github.com/kishlayamishra02",
-      summary: "AI & Data Science Specialist pursuing B.Sc. Computer Science at BITS Pilani. Certified from Harvard, Duke, and Vanderbilt. Experience with EY, IBM, Microsoft, Goldman Sachs. 46+ GitHub repositories spanning full-stack development and AI projects.",
+      summary: "I'm a Computer Science student at BITS Pilani with a deep belief that every real-world challenge has a technical solution. I specialize in Artificial Intelligence, Full-Stack Development, and Cybersecurity. Outside of code, I’m the go-to person for friends’ tech crises, community fundraising, and caring for stray animals — because solving problems doesn’t end at the keyboard.",
       funFacts: [
     "Once tried to teach an AI to make chai; now the kettle expects a salary.",
     "Has more GitHub repos than socks, yet still loses both.",
